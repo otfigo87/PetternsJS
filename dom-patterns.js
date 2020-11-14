@@ -16,7 +16,7 @@ function showPattern() {
         newDiv.style.width = width + 'px';
         newDiv.style.height = height + 'px';
         newDiv.style.background = colorsArr[randomColorIdx];
-        newDiv.style.borderRadius = "100%";
+
         //attach the new div element created to the DOM
         document.body.appendChild(newDiv);
         //update css values for the new div inside the while loop
